@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project(project_name)
+aux_source_directory(src SRC_LIST)
+add_executable(executable_name ${SRC_LIST})
+
